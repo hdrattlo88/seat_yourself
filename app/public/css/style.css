@@ -1,0 +1,83 @@
+body{
+    background-color: black;   
+}
+.container {
+    background-image: url(../css/images/bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 70%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    
+  }
+
+  .btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .column {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+  }
+  .column img {
+    margin-top: 0px;
+    vertical-align: center;
+  }
+  .dropdown-menu {
+    background: coral;
+    font-weight: bold;
+    color: white;
+    width: 50%;
+  }
+  .dropdown-item {
+    color: white;
+    font-weight: bold;
+  }
+  label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+  }
+ input{
+     width: 30%;
+     height: 25%;
+     font-size: 15px;
+     font-weight: bold;
+     color: gray;
+     display: flex;
+     margin: auto;
+     border-radius: 7px;
+     text-align: center;
+
+ }
+.logo{
+    display: flex;
+     margin: auto;
+     height: 75%;  
+     margin-top: 2%;
+}
+.app:hover{
+    background-color: coral;
+    width: 50%;
+    border-radius: 5px;
+}
+#mexican-appetizer, #italian-appetizer, #chinese-appetizer, #american-appetizer, #brewery-appetizer{
+    font-size: 20px;
+    font-weight: bold;
+}
+
