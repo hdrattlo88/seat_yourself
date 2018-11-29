@@ -22,7 +22,7 @@ if (process.env.JAWSDB_URL){
     host:'localhost',
     user: 'root',
     password: '',
-    database: 'seat_yourself'
+    database: 'go_seat_yourself'
   });
 
 };
