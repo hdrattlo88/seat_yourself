@@ -10,6 +10,6 @@ module.exports = function(app) {
 
   // index route loads view.html
   $.get("*", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/index.html"));
+    res.render(path.join(__dirname, "../public/index.html"));
   });
 };
